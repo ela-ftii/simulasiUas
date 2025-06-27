@@ -13,6 +13,7 @@ class TransaksiController extends BaseController
     protected $transaction;
     protected $transaction_detail;
 
+
     function __construct()
     {
         helper('number');
@@ -22,6 +23,7 @@ class TransaksiController extends BaseController
         $this->apiKey = env('COST_KEY');
         $this->transaction = new TransactionModel();
         $this->transaction_detail = new TransactionDetailModel();
+
     }
 
     public function index()

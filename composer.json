@@ -13,7 +13,10 @@
         "php": "^7.4 || ^8.0",
         "codeigniter4/framework": "^4.0",
         "dompdf/dompdf": "^3.1",
+<<<<<<< HEAD
         "guzzlehttp/guzzle": "^7.9",
+=======
+>>>>>>> 1071e218bf333a82a514d09bae78640eb28834a9
         "jason-napolitano/codeigniter4-cart-module": "^1.1"
     },
     "require-dev": {
